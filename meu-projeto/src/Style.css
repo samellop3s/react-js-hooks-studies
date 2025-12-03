@@ -146,3 +146,45 @@ body {
 .container-agenda button:hover {
     background-color: #ffb74d;
 }
+
+.container-tema {
+  padding: 16px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+  margin-top: 25px;
+  transition: background-color 0.2s, color 0.2s ease;
+  box-shadow: #333 2px 2px 10px;
+}
+
+.container-tema:hover {
+  box-shadow: #333 4px 4px 15px; 
+}
+
+.container-tema.claro {
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+.container-tema.escuro {
+  background-color: #222;
+  color: #f5f5f5;
+}
+
+.container-tema .texto {
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+}
+.container-tema button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #7b5a2c;
+  color: #fff;
+  transition: background-color 0.2s;
+}
+
+.container-tema button:hover {
+  background-color: #5c4030;
+}

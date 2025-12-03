@@ -2,6 +2,7 @@ import Produto from "./Componentes/Produto.jsx";
 import Mensagem from "./Componentes/Mensagem.jsx";
 import Contador from "./Componentes/Contador.jsx";
 import Agenda from "./Componentes/Agenda.jsx";
+import Tema from "./Componentes/Tema.jsx";
 
 function App() {
     return (
@@ -27,6 +28,9 @@ function App() {
                 hora="14:00"
                 local="Sala de Conferências 3"
                 descricao="Discutir o progresso do projeto e próximos passos."
+            />
+            <Tema
+                texto="Bem-vindo ao meu aplicativo React!"
             />
         </>
     );
