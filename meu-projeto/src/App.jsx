@@ -15,7 +15,7 @@ function App() {
 
             <Mensagem
                 usuario="João"
-                texto="Estou desacansando, mais tarde eu vou "
+                texto="Estou descansando, mais tarde eu vou "
                 hora="10:30 AM"
             /> 
             
