@@ -7,12 +7,12 @@ function Contador() {
 
     //funcao para aumentar o valor em +1
     function aumentar() {
-        setNumero(numero + 1);
+        setNumero(n => n + 1);
     }
 
     //funcao para diminuir o valor em -1
     function diminuir() {
-        setNumero(numero - 1);
+        setNumero(n => n - 1);
     }
 
 
