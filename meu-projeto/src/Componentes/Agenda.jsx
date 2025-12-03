@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useEffect } from "react";
 
-function Agenda (props) {
+function Agenda(props) {
 
     //declara o 'mostrarDetalhes' e a funcao 'setMostrarDetalhes' para atualizar ele
     //o useState (false) esta sendo usado para a funcao iniciar com o valor "escondido")
@@ -20,7 +20,7 @@ function Agenda (props) {
             <p><strong>Hora:</strong> {props.hora}</p>
             <p><strong>Local:</strong> {props.local}</p>
             {/*ao clicar no botao, sera chamada o "setMostrarDetalhes" para atualizar o valor de 'mostrarDetalhes'
-            e fara uma agendamento de atualização de estado e faz o componente re-renderizar*/}  
+            e fara uma agendamento de atualização de estado e faz o componente re-renderizar*/}
             <button onClick={() => setMostrarDetalhes(!mostrarDetalhes)}>
 
                 {/* usa o valor do estado para decidir o texto do botao*/}

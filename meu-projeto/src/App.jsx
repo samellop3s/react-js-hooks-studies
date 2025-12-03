@@ -17,17 +17,17 @@ function App() {
                 usuario="João"
                 texto="Estou descansando, mais tarde eu vou "
                 hora="10:30 AM"
-            /> 
-            
+            />
+
             <Contador />
 
-            <Agenda 
+            <Agenda
                 titulo="Reunião de Projeto"
                 data="2025-12-05"
                 hora="14:00"
                 local="Sala de Conferências 3"
                 descricao="Discutir o progresso do projeto e próximos passos."
-            />            
+            />
         </>
     );
 }
