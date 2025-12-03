@@ -6,6 +6,9 @@ function Agenda (props) {
     //declara o 'mostrarDetalhes' e a funcao 'setMostrarDetalhes' para atualizar ele
     //o useState (false) esta sendo usado para a funcao iniciar com o valor "escondido")
     const [mostrarDetalhes, setMostrarDetalhes] = useState(false);
+
+    //useEffect observa as dependências [props.data].
+    //Sempre que 'data' mudar, este efeito roda e registra uma mensagem no console.
     useEffect(() => {
         console.log(`a data foi alterada "${props.data}".`);
     }, [props.data]);
