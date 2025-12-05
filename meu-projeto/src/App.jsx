@@ -3,6 +3,7 @@ import Mensagem from "./Componentes/Mensagem.jsx";
 import Contador from "./Componentes/Contador.jsx";
 import Agenda from "./Componentes/Agenda.jsx";
 import Tema from "./Componentes/Tema.jsx";
+import Usuario from "./Componentes/Usuario.jsx";
 
 function App() {
     return (
@@ -31,6 +32,13 @@ function App() {
             />
             <Tema
                 texto="Bem-vindo ao meu aplicativo React!"
+            />
+
+            <Usuario
+                nome="Maria Silva"
+                idade={28}
+                profissao="Desenvolvedora Front-end"
+                descricao="Maria é uma desenvolvedora apaixonada por criar interfaces de usuário intuitivas e responsivas."
             />
         </>
     );
