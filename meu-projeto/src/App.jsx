@@ -4,6 +4,7 @@ import Contador from "./Componentes/Contador.jsx";
 import Agenda from "./Componentes/Agenda.jsx";
 import Tema from "./Componentes/Tema.jsx";
 import Usuario from "./Componentes/Usuario.jsx";
+import Todo from "./Componentes/Todo.jsx";
 
 function App() {
     return (
@@ -40,6 +41,8 @@ function App() {
                 profissao="Desenvolvedora Front-end"
                 descricao="Maria é uma desenvolvedora apaixonada por criar interfaces de usuário intuitivas e responsivas."
             />
+
+            <Todo/>
         </>
     );
 }
