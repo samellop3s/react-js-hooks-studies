@@ -6,6 +6,7 @@ import Tema from "./Componentes/Tema.jsx";
 import Usuario from "./Componentes/Usuario.jsx";
 import Todo from "./Componentes/Todo.jsx";
 import Estoque from "./Componentes/Estoque.jsx";
+import Banco from "./Componentes/Banco.jsx";
 
 function App() {
     return (
@@ -48,6 +49,10 @@ function App() {
             <Estoque
                 title="LOJIKA"
                 estoque="250"
+            />
+
+            <Banco 
+                saldo={5000}
             />
         </>
     );
