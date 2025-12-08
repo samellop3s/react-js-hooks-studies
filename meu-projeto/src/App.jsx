@@ -7,6 +7,7 @@ import Usuario from "./Componentes/Usuario.jsx";
 import Todo from "./Componentes/Todo.jsx";
 import Estoque from "./Componentes/Estoque.jsx";
 import Banco from "./Componentes/Banco.jsx";
+import Status from "./Componentes/Status.jsx";
 
 function App() {
     return (
@@ -54,6 +55,8 @@ function App() {
             <Banco 
                 saldo={5000}
             />
+
+            <Status/>
         </>
     );
 }
