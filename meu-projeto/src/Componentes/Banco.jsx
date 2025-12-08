@@ -8,7 +8,7 @@ function Banco(props) {
         setSaldo(saldo + 100); // aumenta o saldo em 100
     }
 
-    function sacar () {
+    function sacar() {
         if (saldo >= 50) {
             setSaldo(saldo - 50); // diminui o saldo em 50
         } else {
