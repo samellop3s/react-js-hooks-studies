@@ -5,6 +5,7 @@ import Agenda from "./Componentes/Agenda.jsx";
 import Tema from "./Componentes/Tema.jsx";
 import Usuario from "./Componentes/Usuario.jsx";
 import Todo from "./Componentes/Todo.jsx";
+import Estoque from "./Componentes/Estoque.jsx";
 
 function App() {
     return (
@@ -43,6 +44,11 @@ function App() {
             />
 
             <Todo/>
+
+            <Estoque
+                title="LOJIKA"
+                estoque="250"
+            />
         </>
     );
 }
