@@ -8,6 +8,8 @@ import Todo from "./Componentes/Todo.jsx";
 import Estoque from "./Componentes/Estoque.jsx";
 import Banco from "./Componentes/Banco.jsx";
 import Status from "./Componentes/Status.jsx";
+import Timer from "./Componentes/Timer.jsx";
+import Aviso from "./Componentes/Aviso.jsx";
 
 function App() {
     return (
@@ -57,6 +59,12 @@ function App() {
             />
 
             <Status/>
+
+            <Timer/>
+
+            <Aviso
+                aviso="Este é um aviso importante!"
+            />
         </>
     );
 }

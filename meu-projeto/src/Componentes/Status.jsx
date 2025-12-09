@@ -10,7 +10,7 @@ function Status() {
         <div>
             <h2>Status do Usuário: {status ? "online🟢" : "offline🔴"}</h2>
             <button onClick={toggleStatus}>
-                {status ? "Desconectar" : "Conectar"  }
+                {status ? "Desconectar" : "Conectar"}
             </button>
            
         </div>
