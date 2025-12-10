@@ -10,6 +10,7 @@ import Banco from "./Componentes/Banco.jsx";
 import Status from "./Componentes/Status.jsx";
 import Timer from "./Componentes/Timer.jsx";
 import Aviso from "./Componentes/Aviso.jsx";
+import Lembrete from "./Componentes/Lembrete.jsx";
 
 function App() {
     return (
@@ -64,6 +65,10 @@ function App() {
 
             <Aviso
                 aviso="Este é um aviso importante!"
+            />
+
+            <Lembrete
+                lembrete="Não esquecer da reunião amanhã às 10h."
             />
         </>
     );
