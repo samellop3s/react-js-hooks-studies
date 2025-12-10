@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../Style.css";
 
 function Aviso(props) {
 
@@ -11,7 +12,7 @@ function Aviso(props) {
     }
 
     return (
-        <div>
+        <div className="card-aviso">
             <h2>Aviso</h2>
             <button onClick={toggleAviso}>
                 {aviso ? "Esconder Aviso" : "Mostrar Aviso"}

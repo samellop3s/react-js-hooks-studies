@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useEffect } from 'react';
+import "../Style.css";
 
 function Lembrete(props) {
     
@@ -11,7 +12,7 @@ function Lembrete(props) {
     }, [lembrete]);
 
     return (
-        <div>
+        <div className='card-lembrete'>
             <div className="container-lembrete">
                 <h2>Lembrete</h2>
                 <button onClick={() => setLembrete(!lembrete)}>

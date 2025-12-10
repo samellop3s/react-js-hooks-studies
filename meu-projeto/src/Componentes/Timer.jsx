@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import "../Style.css";
 
 function Timer () {
 
@@ -44,7 +45,7 @@ function Timer () {
     }, [rodando]); // <- o efeito depende de "rodando"
     
     return (
-        <div>
+        <div className="card-timer">
             <h2><strong>Timer:</strong> {segundos}</h2>
 
             <button onClick={() => setRodando(true)}>Iniciar</button>
