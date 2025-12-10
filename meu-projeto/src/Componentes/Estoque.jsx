@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../Style.css";
 
 function Estoque(props) {
 

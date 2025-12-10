@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../Style.css";
 
 function Banco(props) {
 
@@ -17,7 +18,7 @@ function Banco(props) {
     }
 
     return (
-        <div>
+        <div className="card-banco">
             <h2>Banco Component</h2>
             <p><strong>Saldo:</strong> R$ {saldo}</p>
 
