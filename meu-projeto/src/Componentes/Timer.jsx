@@ -14,6 +14,8 @@ function Timer () {
         Sempre que "rodando" mudar, o useEffect sera executado.
     */
 
+
+        //nesta situação, usamos o useEffect para iniciar ou parar o timer
     useEffect(() => {
         let intervalo = null;
 
@@ -34,7 +36,7 @@ function Timer () {
 
             O return dentro do useEffect é executado quando: 
 
-            -O componente desmonta (fecha a pagina)
+            - O componente desmonta (fecha a pagina)
             - Ou quando o 'rodando' mudar novamente.
 
             Aqui limpamos o intervalo para evitar bugs.
@@ -42,7 +44,7 @@ function Timer () {
         */
 
         return () => clearInterval(intervalo);
-    }, [rodando]); // <- o efeito depende de "rodando"
+    }, [rodando]); // este returna sempre que 'rodando' mudar
     
     return (
         <div className="card-timer">
