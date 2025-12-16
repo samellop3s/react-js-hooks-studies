@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 
-
-function Aluno (props) {
+function Aluno(props) {
 
     const [aluno, setAluno] = useState(false);
 
