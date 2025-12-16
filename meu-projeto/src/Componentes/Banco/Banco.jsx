@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../Style.css";
+import "../../Style.css";
 
 function Banco(props) {
 

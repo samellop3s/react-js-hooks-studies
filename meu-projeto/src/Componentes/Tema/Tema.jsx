@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../Style.css"; // confirma se o caminho está correto
+import "../../Style.css";// confirma se o caminho está correto
 
 function Tema(props) {
   // vai guardar o estado atual do tema (false = claro, true = escuro)

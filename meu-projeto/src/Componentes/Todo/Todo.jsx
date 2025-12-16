@@ -1,6 +1,5 @@
 import { useState } from "react";
-import "../Style.css";
-
+import "../../Style.css";
 function Todo() {
 
     //"tarefas" vai guardar a lista de tarefas

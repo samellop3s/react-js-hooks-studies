@@ -1,4 +1,4 @@
-import "../Style.css";
+import "../../Style.css";
 import { useState } from "react";
 
 function Produto(props) {

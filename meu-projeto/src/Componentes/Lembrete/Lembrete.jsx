@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useEffect } from 'react';
-import "../Style.css";
+import "../../Style.css";
 
 function Lembrete(props) {
     

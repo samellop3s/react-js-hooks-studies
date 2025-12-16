@@ -1,17 +1,17 @@
-import Produto from "./Componentes/Produto.jsx";
-import Mensagem from "./Componentes/Mensagem.jsx";
-import Contador from "./Componentes/Contador.jsx";
-import Agenda from "./Componentes/Agenda.jsx";
-import Tema from "./Componentes/Tema.jsx";
-import Usuario from "./Componentes/Usuario.jsx";
-import Todo from "./Componentes/Todo.jsx";
-import Estoque from "./Componentes/Estoque.jsx";
-import Banco from "./Componentes/Banco.jsx";
-import Status from "./Componentes/Status.jsx";
-import Timer from "./Componentes/Timer.jsx";
-import Aviso from "./Componentes/Aviso.jsx";
-import Lembrete from "./Componentes/Lembrete.jsx";
-import Aluno from "./Componentes/Aluno.jsx";
+import Produto from "./Componentes/Produto/Produto.jsx";
+import Mensagem from "./Componentes/Mensagem/Mensagem.jsx";
+import Contador from "./Componentes/Contador/Contador.jsx";
+import Agenda from "./Componentes/Agenda/Agenda.jsx";
+import Tema from "./Componentes/Tema/Tema.jsx";
+import Usuario from "./Componentes/Usuario/Usuario.jsx";
+import Todo from "./Componentes/Todo/Todo.jsx";
+import Estoque from "./Componentes/Estoque/Estoque.jsx";
+import Banco from "./Componentes/Banco/Banco.jsx";
+import Status from "./Componentes/Status/Status.jsx";
+import Timer from "./Componentes/Timer/Timer.jsx";
+import Aviso from "./Componentes/Aviso/Aviso.jsx";
+import Lembrete from "./Componentes/Lembrete/Lembrete.jsx";
+import Aluno from "./Componentes/Aluno/Aluno.jsx";
 
 function App() {
     return (

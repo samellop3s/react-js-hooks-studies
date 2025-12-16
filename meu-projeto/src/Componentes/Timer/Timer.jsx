@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "../Style.css";
+import "../../Style.css";
 
 function Timer () {
 

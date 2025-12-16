@@ -1,4 +1,4 @@
-import "../Style.css";
+import "../../Style.css";
 import { useEffect } from "react";
 
 function Mensagem(props) {
