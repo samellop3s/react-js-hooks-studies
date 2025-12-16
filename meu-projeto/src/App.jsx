@@ -17,7 +17,9 @@ import Aluno from "./Componentes/Aluno/Aluno.jsx";
 function App() {
     return (
         <>
-            <Home/>
+            <Home
+                titulo="Bem vindo!"
+            />
             <Produto
                 nome="Smartphone XYZ"
                 preco={1999.99}
