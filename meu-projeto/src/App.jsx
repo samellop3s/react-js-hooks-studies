@@ -1,3 +1,4 @@
+import Home from "./Componentes/Home/Home.jsx";
 import Produto from "./Componentes/Produto/Produto.jsx";
 import Mensagem from "./Componentes/Mensagem/Mensagem.jsx";
 import Contador from "./Componentes/Contador/Contador.jsx";
@@ -16,6 +17,7 @@ import Aluno from "./Componentes/Aluno/Aluno.jsx";
 function App() {
     return (
         <>
+            <Home/>
             <Produto
                 nome="Smartphone XYZ"
                 preco={1999.99}
