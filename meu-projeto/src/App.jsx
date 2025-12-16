@@ -11,6 +11,7 @@ import Status from "./Componentes/Status.jsx";
 import Timer from "./Componentes/Timer.jsx";
 import Aviso from "./Componentes/Aviso.jsx";
 import Lembrete from "./Componentes/Lembrete.jsx";
+import Aluno from "./Componentes/Aluno.jsx";
 
 function App() {
     return (
@@ -69,6 +70,14 @@ function App() {
 
             <Lembrete
                 lembrete="Não esquecer da reunião amanhã às 10h."
+            />
+
+            <Aluno
+                nome="Carlos"
+                curso="Engenharia de Software"
+                universidade="Universidade Federal"
+                horario="Matutino"
+                aviso="aprovado"
             />
         </>
     );
